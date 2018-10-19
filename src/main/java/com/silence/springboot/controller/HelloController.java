@@ -25,6 +25,11 @@ public class HelloController {
         System.out.println("demo "+i++ +"次调用");
         return "DEMO";
     }
+    @RequestMapping("liu")
+    public String liu(){
+        System.out.println("liu "+i++ +"次调用");
+        return "LIU";
+    }
 
 
 
