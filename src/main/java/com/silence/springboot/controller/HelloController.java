@@ -23,7 +23,7 @@ public class HelloController {
     @RequestMapping("demo")
     public String demo(){
         System.out.println("demo "+i++ +"次调用");
-        return "DEMO";
+        return "Demo";
     }
     @RequestMapping("liu")
     public String liu(){
