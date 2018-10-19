@@ -15,7 +15,6 @@ public class HelloController {
 
     private  int i = 0;
 
-
     @RequestMapping("hello")
     public String hello(){
         System.out.println("hello "+i++ +"次调用");
