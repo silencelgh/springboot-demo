@@ -21,5 +21,11 @@ public class HelloController {
         return "Hello";
     }
 
+    @RequestMapping("haha")
+    public String haha(){
+        System.out.println("haha "+i++ +"次调用");
+        return "HAHA";
+    }
+
 
 }
