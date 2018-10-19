@@ -20,6 +20,12 @@ public class HelloController {
         System.out.println("hello "+i++ +"次调用");
         return "Hello";
     }
+    @RequestMapping("demo")
+    public String demo(){
+        System.out.println("demo "+i++ +"次调用");
+        return "DEMO";
+    }
+
 
 
 }
